@@ -66,3 +66,7 @@ const teamMembers = [
 
 //Elementi in OUTPUT del DOM
 const cardsContainer = document.getElementById("cards-container");
+
+for (let i = 0; i < teamMembers.length; i++) {
+  cardsContainer.innerHTML += createTeamMembers(teamMembers[i]);
+}
