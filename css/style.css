@@ -51,8 +51,17 @@ main {
 }
 
 #cards-container {
-  height: 60%;
+  height: 50%;
   width: 100%;
+  display: flex;
+  flex-wrap: wrap;
   /* DEBUG */
   background-color: red;
+}
+
+.card {
+  width: 30%;
+  height: 150px;
+  margin: auto;
+  background-color: black;
 }
