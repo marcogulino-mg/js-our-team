@@ -64,3 +64,5 @@ const teamMembers = [
   },
 ];
 
+//Elementi in OUTPUT del DOM
+const cardsContainer = document.getElementById("cards-container");
