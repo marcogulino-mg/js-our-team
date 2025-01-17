@@ -15,6 +15,16 @@ svg {
   max-width: 100%;
 }
 
+h1 {
+  color: rgb(231, 52, 115);
+  font-size: 3.5rem;
+}
+
+p {
+  font-size: 2rem;
+  text-align: center;
+}
+
 /* BODY */
 body {
   height: 100vh;
@@ -32,6 +42,17 @@ main {
   height: 90%;
   width: 100%;
   margin: auto 70px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
   /* DEBUG */
   background-color: blue;
+}
+
+#cards-container {
+  height: 60%;
+  width: 100%;
+  /* DEBUG */
+  background-color: red;
 }
