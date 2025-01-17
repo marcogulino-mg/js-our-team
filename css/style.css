@@ -15,3 +15,23 @@ svg {
   max-width: 100%;
 }
 
+/* BODY */
+body {
+  height: 100vh;
+}
+
+/* MAIN */
+main {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#content-main {
+  height: 90%;
+  width: 100%;
+  margin: auto 70px;
+  /* DEBUG */
+  background-color: blue;
+}
